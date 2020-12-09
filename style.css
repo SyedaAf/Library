@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background: rgb(246, 251, 252);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.modal{
+text-align: center;
+color: rgb(85, 105, 165);
+font-size: large;
+}
+
+.addbook {
+color: rgb(78, 87, 161);
+text-align: center;
+font-size: large;
+}
+.container {
+    background-color: rgb(172, 178, 197);
+}
+.form-group{
+   position: relative; 
+   width: 740px;
+   height: 498px;
+   margin: 0 auto;
+   padding: 1em;
+   box-sizing: border-box;
+   background:rgb(220, 234, 245) ;
+   
+}
+label {
+    display: inline-block;
+}
+input[type=submit], input[type=reset] {
+    background-color: #556a91;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    color: rgb(197, 215, 231);
+    cursor: pointer;
+}
+input[type=text]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#container {
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.form-group {
+    color: rgb(94, 131, 163);
+    width: auto;
+    height: auto;
+    font: 1em sans-serif;
+    text-align: center;
+}
+.table {
+    width: 100%;
+}
+.table, th, td {
+    border: 1px solid rgb(89, 115, 155);
+    border-collapse: collapse;
+    color: rgb(94, 131, 163);
+    
+}
+    
+
+   

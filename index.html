@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Library</title>
+</head>
+<body>
+ <div id="container">
+ <div class="modal"> Library </div> <br>
+ 
+
+<div class="addbook"> <span>Add Your Book Here</span>  </div><br> 
+<div class="form-group">
+    <form id="book-form">
+      <div class="form-group">
+     <label for="title">Title </label>
+       <input type="text"  placeholder="Title" id="title"> </div><br>
+     
+     <div class="form-group">
+      <label for="Author">Author </label>
+       <input type="text"  placeholder="Author" id="author" ></div> <br>
+       <div class="form-group">
+       <label for="pages">Pages </label>
+    <input type='text'  placeholder="Pages
+    " id='pages'  ></div>  <br>
+    <div class="form-group">
+             
+    <div id="btn"> 
+        <input type="submit" value="Add Book" class="btn btn-primary btn-block"/>
+        <input type="reset" value="Reset" class="btn btn-primary btn-block"/> </div>
+        
+      </form> <br>
+      <table class="table">
+        <thead>
+          <tr>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Pages</th>
+         
+         <th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+        </table>
+
+
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
